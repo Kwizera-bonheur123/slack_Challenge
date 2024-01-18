@@ -9,6 +9,7 @@ body{
     border-radius: 10px;
     padding: 5px;
     margin-top: 4%;
+    display: flex;
 }
 .container-1{
     background-color: #FFE6C9;
@@ -75,4 +76,62 @@ body{
 }
 .img2{
     position: absolute;
+    height: 7%;
+    margin-left: 9.6%;
+    margin-top: 5%;
 }
+.img3{
+    position: absolute;
+    height: 9%;
+    margin-left: 27%;
+    margin-top: 5%;
+}
+.container2{
+    width: 25%;
+    padding-left: 7%;
+    padding-right: 5%;
+    height: 410px;
+    padding-top: 12%;
+}
+.container2 img{
+    height: 35px;
+}
+.container2 .heading{
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 20px;
+    color: #525252;
+}
+.container2 p{
+    font-family: Nunito Sans;
+    font-size: 10px;
+    color: #525252;
+}
+.Continue{
+    border: 2px solid #E8E8E8;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 5%;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 80%;
+}
+.Continue img{
+    height: 20px;
+}
+.Continue p{
+    font-family: Nunito Sans;
+}
+.or{
+   color: #DDDDDD;
+   margin-left: 20px;
+}
+.email-form{
+    margin-top: 30px;
+}
+.input{
+    display: grid;
+    margin-bottom: 15px;
+}
+
