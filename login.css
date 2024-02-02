@@ -118,9 +118,8 @@
 .Continue p{
     font-family: Nunito Sans;
 }
-.or{
-   color: #DDDDDD;
-   margin-left: 15px;
+.or p{
+    text-align: center;
 }
 .input{
     display: grid;
@@ -137,6 +136,14 @@ input{
     padding: 13px, 10px, 13px, 10px;
     border-radius: 5px;
     border: 2px solid #DED2D9;
+}
+
+input[type="text"]{
+    padding-left: 10px;
+}
+
+input::placeholder{
+    font-size: 10px;
 }
 .Forgot{
     margin-top: -18px;
@@ -177,3 +184,35 @@ input[type="submit"]{
     color: #73114B;
     font-weight: bold;
 }
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #828282;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+  }
+  input[type="checkbox"]::after {
+    content: "\f00c";
+    font-family: "font awesome 5 free";
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    display: none;
+  }
+  input[type="checkbox"]:hover {
+    background-color: #a1a1a1;
+  }
+  input[type="checkbox"]:checked {
+    background-color: #7f265b;
+  }
+  input[type="checkbox"]:checked::after {
+    display: block;
+  }
+
